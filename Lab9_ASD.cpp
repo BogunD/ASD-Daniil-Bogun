@@ -2,7 +2,6 @@
 #include <iomanip>
 #include <windows.h>
 
-
 double SumAboveDiag(int a, int b, double** matrix);
 double** Matrixx(int a, int b);
 void main() {
@@ -42,7 +41,6 @@ double SumAboveDiag(int a, int b, double** arr) {
 			else
 				continue;
 		}
-		
 	}
 	return sum;
 }
